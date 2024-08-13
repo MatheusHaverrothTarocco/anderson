@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+
+
+</head>
+<style>
+         iframe {
+            border: none;
+            width: 100%;
+            height: 100%;
+        }
+</style>
+<body>
+    <div id="container">
+        <button onclick="loadPage('ATV1.html')">Carregar Soma</button>
+        <button onclick="loadPage('atv2.html')">Carregar texto no campo de texto</button>
+        <button onclick="loadPage('ATV3.html')">Carregar Popup</button>
+        <iframe id="contentFrame" src="" allowfullscreen></iframe>
+    </div>
+
+    <script>
+        function loadPage(url) {
+            document.getElementById('contentFrame').src = url;
+        }
+    </script>
+</body>
+
+</body>
+
